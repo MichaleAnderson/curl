@@ -731,7 +731,7 @@ SSL_CTX_use_certificate_chain_blob(SSL_CTX *ctx, const struct curl_blob *blob,
   return ret;
 #else
   (void)ctx; /* unused */
-  (void)in; /* unused */
+//  (void)in; /* unused */
   (void)key_passwd; /* unused */
   return 0;
 #endif
